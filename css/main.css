@@ -6,14 +6,29 @@
     font-family: sans-serif;
 }
 
+/* tags */
+body {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #212529;
+}
 
+/* utilities */
+.p-10 {
+    padding: 10px;
+}
 
+.m-15 {
+    margin: 15px;
+}
 
+.b-radius {
+    border-radius: 5px;
+    border: 1px solid white;
+}
 
-
-
-
-
+/* classi da cancellare */
 
 
 
