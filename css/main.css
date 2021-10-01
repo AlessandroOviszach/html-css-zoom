@@ -6,21 +6,37 @@
     font-family: sans-serif;
 }
 
-/* tags */
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     color: white;
     background-color: #212529;
+    padding: 10px;
+}
+
+/* tags */
+header {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    margin-top: 15px;
+    background-color: #495057;
+}
+
+button {
+    padding: 0 5px;
 }
 
 /* utilities */
 .p-10 {
     padding: 10px;
-}
-
-.m-15 {
-    margin: 15px;
 }
 
 .b-radius {
