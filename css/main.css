@@ -84,7 +84,28 @@ button {
 .central-toolbar,
 .right-toolbar {
     display: flex;
+    justify-content: centerw;
 }
+
+.toolbar div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+.toolbar div span {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
 
 /* classi da cancellare */
 
