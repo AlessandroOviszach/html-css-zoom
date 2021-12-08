@@ -37,8 +37,15 @@ li {
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 15px;
     background-color: #495057;
+}
+
+footer i {
+    font-size: 1.5rem;
 }
 
 button {
@@ -63,14 +70,20 @@ button {
 }
 
 .single-user {
-    width: calc(100% / 5);
-    height: 200px;
+    width: calc(100% / 9);
+    height: 100px;
 }
 
 .single-user img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.left-toolbar,
+.central-toolbar,
+.right-toolbar {
+    display: flex;
 }
 
 /* classi da cancellare */
