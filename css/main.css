@@ -84,7 +84,7 @@ button {
 .central-toolbar,
 .right-toolbar {
     display: flex;
-    justify-content: centerw;
+    align-items: center;
 }
 
 .toolbar div {
